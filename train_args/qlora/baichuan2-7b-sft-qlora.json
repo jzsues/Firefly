@@ -12,7 +12,7 @@
     "save_total_limit": 1,
     "lr_scheduler_type": "constant_with_warmup",
     "warmup_steps": 1000,
-    "lora_rank": 64,
+    "lora_rank": 32,
     "lora_alpha": 16,
     "lora_dropout": 0.05,
 
