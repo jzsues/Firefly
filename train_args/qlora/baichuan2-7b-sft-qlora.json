@@ -16,11 +16,11 @@
     "lora_alpha": 16,
     "lora_dropout": 0.05,
 
-    "gradient_checkpointing": true,
+    "gradient_checkpointing": false,
     "disable_tqdm": false,
     "optim": "paged_adamw_32bit",
     "seed": 42,
-    "fp16": true,
+    "fp16": false,
     "report_to": "tensorboard",
     "dataloader_num_workers": 0,
     "save_strategy": "steps",
