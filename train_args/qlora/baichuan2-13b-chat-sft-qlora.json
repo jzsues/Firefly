@@ -1,6 +1,6 @@
 {
-    "output_dir": "output/firefly-baichuan2-13b",
-    "model_name_or_path": "baichuan-inc/Baichuan2-13B-Base",
+    "output_dir": "output/firefly-baichuan2-13b-chat",
+    "model_name_or_path": "baichuan-inc/Baichuan2-13B-Chat",
     "train_file": "./data/child_chat_data_firefly.jsonl",
     "num_train_epochs": 1,
     "per_device_train_batch_size": 6,
